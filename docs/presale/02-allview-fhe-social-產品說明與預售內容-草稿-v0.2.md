@@ -6,9 +6,11 @@
 | 產品線編號 | [待確認] 10 條產品線中的編號尚未提供 |
 | 所屬法人 | 事業體 AllView／全視界（domain：`allview.today`；PMO：`C1-AV-CORP`）。**正式法人名稱（公司登記名稱）[待確認]** |
 | 產出日期 | 2026-11-09（Asia/Taipei） |
-| 版本 | 草稿 v0.1 |
+| 版本 | 草稿 v0.2 |
 | 任務目標 | [假設] 同時更新 README 與產出預售說詞（使用者僅寫「參考以下內容」，未另行指定範圍） |
 | 核心事實錨點 | 本次未另附獨立錨點。下文事實均摘自使用者提供之既有 README，**尚未升級為已確認錨點** |
+
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
@@ -18,7 +20,7 @@
 - **所屬法人**：README 寫明本軟體隸屬 AllView（`allview.today`），為「文化傳播、宗教與知識論壇的核心數位空間載體」。對應 Corporate 節點為 `C1-AV-CORP`。
 - **跨法人協作（必須分開標註，避免權利義務混淆）**：
   - **AEGIS（`aegis.expert`）**：提供底層共用 FHE 密碼學核心與硬體加速介面（`platform-he-fhe-core`）。AEGIS **不是**本產品線的所屬法人。
-  - **Wonderland.center（`wonderland.center`）**：作為阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）入口；安全漏洞通報信箱寫為 `github-security@wonderland.center`。[待確認] 該信箱作為對外資安窗口是否正確、是否應改為 AllView 網域。
+  - **Wonderland Center（`wonderland.center`）**：作為阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）入口；安全漏洞通報信箱寫為 `github-security@wonderland.center`。[待確認] 該信箱作為對外資安窗口是否正確、是否應改為 AllView 網域。
 - **既有文件**：`allview-fhe-social-app` README（技術願景、功能矩陣、混合安全架構、目錄、本地開發、QA、PMO 治理）
 - **對應預售專案**：`allview-fhe-social-presale`（`C2-AV-FHS`）
 - **核心事實錨點**：未另提供
@@ -62,7 +64,7 @@ AllView 匿名與不可否認社群是 AllView（`allview.today`）規劃的社�
 
 它與「只強調匿名、事後無法舉證」的設計不同：發表、點擊、閱讀與資料調用應產生可驗證收據，寫入 Merkle 證據鏈；一般公開環境不暴露真實身分，但在授權或仲裁門檻滿足時，可以驗證特定行為是否發生、是否遭否認。README 並將其定位為 AllView 文化傳播、宗教與知識論壇的數位空間載體。[待確認] 此外顯描述是否用於預售。
 
-底層 FHE 核心函式庫由 AEGIS（`aegis.expert`）支援；資源點數調度入口指向 Wonderland.center。這是跨事業體技術依賴，不改變本產品線歸屬 AllView。
+底層 FHE 核心函式庫由 AEGIS（`aegis.expert`）支援；資源點數調度入口指向 Wonderland Center。這是跨事業體技術依賴，不改變本產品線歸屬 AllView。
 
 ---
 
@@ -157,7 +159,7 @@ README 偏技術與治理，銷售對象並未單獨定義。以下區分「文�
 - 用 FHE 處理推薦與匿名投票等需要統計、又不希望伺服器看到明文的運算。
 - 重要操作產生簽章收據，彙整進 Merkle 證據鏈，供授權方查驗。
 - 可用零知識證明出示成員資格，而不必公開真實帳號。
-- 產品歸屬 AllView；FHE 核心能力與 AEGIS 技術棧協同，資源點數調度與 Wonderland 生態銜接。[待確認] 此句對外揭露深度。
+- 產品歸屬 AllView；FHE 核心能力與 AEGIS 技術棧協同，資源點數調度與 Wonderland Center 生態銜接。[待確認] 此句對外揭露深度。
 
 ### FAQ 草稿
 
@@ -173,8 +175,8 @@ A：README 以它們作為體驗或協議取向上的參考，並另外加上視
 **Q：誰來保管可以調閱證據的金鑰？**  
 A：文件僅寫「司法仲裁或授權門檻金鑰（Threshold Signatures）湊齊時」可檢視。持有者、門檻規則與適用法域 [待確認]，不得在預售中自行補述。
 
-**Q：由哪家公司提供？會不會算成 AEGIS 或 Wonderland 的產品？**  
-A：產品線歸屬 AllView（`allview.today`）。AEGIS 支援 FHE 核心庫；Wonderland 與資源點數及部分治理／通報窗口有關。合約主體應以正式法人名稱為準（名稱本身仍 [待確認]）。
+**Q：由哪家公司提供？會不會算成 AEGIS 或 Wonderland Center 的產品？**  
+A：產品線歸屬 AllView（`allview.today`）。AEGIS 支援 FHE 核心庫；Wonderland Center 與資源點數及部分治理／通報窗口有關。合約主體應以正式法人名稱為準（名稱本身仍 [待確認]）。
 
 **Q：價格與上線時間？**  
 A：本次未提供，暫不對外陳述。
@@ -193,7 +195,7 @@ A：本次未提供，暫不對外陳述。
 > **所屬法人／事業體**：AllView／全視界（`allview.today`；PMO `C1-AV-CORP`）｜正式公司登記名稱 [待確認]  
 > **功能倉儲**：`C3-AV-FHS-F`（`allview-fhe-social-app`）  
 > **預售倉儲**：`C2-AV-FHS`（`allview-fhe-social-presale`）  
-> **相關協作（非本產品所屬法人）**：AEGIS（`aegis.expert`，`platform-he-fhe-core`）；Wonderland.center（資源點數調度 `platform-resource-points-conversion`）  
+> **相關協作（非本產品所屬法人）**：AEGIS（`aegis.expert`，`platform-he-fhe-core`）；Wonderland Center（資源點數調度 `platform-resource-points-conversion`）  
 > **文件狀態**：草稿，待人工審核
 
 結合視覺化社群介面與端對端加密通訊，並透過 FHE（Fully Homomorphic Encryption，全同態加密）在密文上運算，同時支援公開環境下的偽匿名，以及授權方不可否認的證據鏈。
@@ -216,7 +218,7 @@ A：本次未提供，暫不對外陳述。
 - 對應預售專案：`allview-fhe-social-presale`（`C2-AV-FHS`）
 - 本功能實作專案：`allview-fhe-social-app`（`C3-AV-FHS-F`）
 - AEGIS（`aegis.expert`）：共用 FHE 核心函式庫及硬體加速介面（`platform-he-fhe-core`）
-- Wonderland.center：阿米巴組織、群眾發包、義工動員與資源點數調度入口（`platform-resource-points-conversion`）
+- Wonderland Center：阿米巴組織、群眾發包、義工動員與資源點數調度入口（`platform-resource-points-conversion`）
 
 ```
 Allview.today Corporate (C1-AV-CORP)
@@ -315,7 +317,7 @@ X3DH + Double Ratchet（PFS / PCS）；加密群聊、語音／視訊與螢幕�
 
 1. **確認任務範圍**：是否 README 與預售說詞都要。
 2. **對外中文產品名**與 10 條產品線中的編號。
-3. **正式法人名稱**，以及合約主體是否僅為 AllView；AEGIS／Wonderland 在對外材料中要揭露到哪一層。
+3. **正式法人名稱**，以及合約主體是否僅為 AllView；AEGIS／Wonderland Center 在對外材料中要揭露到哪一層。
 4. **安全通報信箱**使用 `wonderland.center` 網域是否正確。
 5. 將下列 README 用語核定為「可對外」或「僅內部／需改寫」：極致體驗、Signal／Telegram／Pixelfed 同級比較、新世代、宗教與知識論壇載體、偽匿名、不可否認。
 6. **量化門檻**（60 FPS、1.2s、800ms 等）能否寫進預售或須僅留在工程 README。
@@ -324,4 +326,4 @@ X3DH + Double Ratchet（PFS / PCS）；加密群聊、語音／視訊與螢幕�
 9. **銷售對象**：請確認或修正第 5 節中標記為 [假設] 的決策者描述；並補充是否對一般消費者預售。
 10. **價格、交期、上線時程、法規認證**：本次未提供，草稿未寫入；核定前請勿補上未證實承諾。
 11. **與 OrbiLocale 的區隔語句**是否可以採用第 6 節表述。
-12. **本文件狀態**：草稿 v0.1，**尚未最終確認**。
+12. **本文件狀態**：草稿 v0.2，**尚未最終確認**。
