@@ -1,3 +1,4 @@
+<!-- 產品／專案：CipherCircle｜法人／事業體：AllView／全視界（完整法定名稱 [待確認]）｜日期：2026-11-11（Asia/Taipei）｜草稿 v0.3 -->
 # CipherCircle
 C2-AV-FHS 密圈 CipherCircle FHE 密文防護之偽匿名社群 for 思想領袖、敏感議題討論群體
 # AllView Anonymous & Non-Repudiable Social Network (`allview-fhe-social-app`)
@@ -41,7 +42,7 @@ C2-AV-FHS 密圈 CipherCircle FHE 密文防護之偽匿名社群 for 思想領�
   * 對應預售專案：`allview-fhe-social-presale` (`C2-AV-FHS`)
   * 本功能實作專案：`allview-fhe-social-app` (`C3-AV-FHS-F`)
 * **四之二：AEGIS (`aegis.expert`)**：底層共用 FHE 密碼學核心函式庫及硬體加速介面支援（`platform-he-fhe-core`）。
-* **一／四之四：Wonderland.center (`wonderland.center`)**：作為全域阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）之入口。
+* **一／四之四：Wonderland Center (`wonderland.center`)**：作為全域阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）之入口。
 
 ```
 +--------------------------------------------------------------------------+
@@ -260,3 +261,15 @@ cargo test --test crypto_benchmark -- --nocapture
 
 > **專案聯絡與安全回報**：  
 > 若發現任何密碼學實作缺陷或安全隱患，請立即通知 `github-security@wonderland.center`，請勿公開提交 Issue。
+
+
+## v0.3 變更註記（2026-11-11，Asia/Taipei）
+
+僅修正本次涉及之品牌顯示名稱、網域文字及與 t12u 直接衝突的法人關係段落；repo／org、技術代碼、URL、路徑、分支及 email local part 均未變更。品牌與網域確認不代表內容核准；本文件為草稿 v0.3，其他來源規格僅供參考，未驗證的功能、效能、時程及合規不得視為核准。
+
+### 人工審核清單
+
+- 完整法定名稱、登記資訊、設立沿革、網域持有人與技術協作／託管契約仍以已確認錨點為限，其他 [待確認] 標註維持。
+- 既有版權權利人與授權條款未由本次品牌修訂推定變更；請確認 README 的版權行及 LICENSE 第 189 行 `Copyright [yyyy] [name of copyright owner]` 範本尚未填寫之權利人與年份。
+- 保留的技術 URL／徽章／代碼若含歷史文字，並非現行品牌或法人歸屬聲明；如需替換 URL 或改名須另行確認。
+- 其餘效能、法遵、交付與產品主張未經核驗，均待人工審核，不因本次修字或 PR 合併視為核准。
