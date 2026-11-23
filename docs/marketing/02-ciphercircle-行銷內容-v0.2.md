@@ -2,7 +2,7 @@
 
 【回報主 PMO】｜修訂日期：2026-11-13（Asia/Taipei）｜狀態：已產出／已完成審核｜v0.1 產出日期：2026-11-12
 
-> 📝 **修訂說明（v0.2）**：依主 PMO 2026-11-13 決策修訂。對外產品名稱定為「密圈」；不再以「AllView 匿名與不可否認社群（FHE Social）」作為對外名稱。README 英文名 CipherCircle 僅在引用 README 時保留。CTA 一律導向 https://wonderland.center/CTA/CipherCircle【事實錨點：主 PMO 2026-11-13 指示／CTA】。來源文件仍為草稿、尚未最終確認；經主 PMO 同意，本文案進入審核。通過人工審核之前，不得對外發布。
+> 📝 **修訂說明（v0.2）**：依主 PMO 2026-11-13 決策修訂。對外產品名稱定為「密圈」；不再以「AllView 匿名與不可否認社群（FHE Social）」作為對外名稱。README 英文名 CipherCircle 僅在引用 README 時保留。CTA 一律導向 https://wonderland.ngo/CTA/CipherCircle【事實錨點：主 PMO 2026-11-13 指示／CTA】。來源文件仍為草稿、尚未最終確認；經主 PMO 同意，本文案進入審核。通過人工審核之前，不得對外發布。
 > 主 PMO 於 2026-11-13 核准審核通過。
 
 > ⚠️ **來源狀態提醒**：本文案依據的預售文件在 GitHub `main` 上的最新版本，檔名與內文仍標示「草稿 v0.2」「尚未最終確認」；README 為「草稿 v0.3」。目前沒有看到審核通過紀錄。來源文件仍為草稿；經主 PMO 2026-11-13 同意，本文案進入審核。**通過人工審核之前，不得對外發布。**
@@ -89,7 +89,7 @@
 價格與上線時間目前尚未公布【事實錨點：《P02》／§7 FAQ「價格與上線時間？」】。
 
 ### 行動呼籲（CTA）
-「如果您經營的知識社群、課程或論壇同時需要隱私與可查證性，請至 https://wonderland.center/CTA/CipherCircle。」【事實錨點：主 PMO 2026-11-13 指示／CTA】
+「如果您經營的知識社群、課程或論壇同時需要隱私與可查證性，請至 https://wonderland.ngo/CTA/CipherCircle。」【事實錨點：主 PMO 2026-11-13 指示／CTA】
 （銷售對象目前多為 [假設]，CTA 需人工確認，見第 5 節）
 
 ---
@@ -107,7 +107,7 @@
 | 7 | 偽匿名 ≠ 無法追溯 | 公開環境不暴露真實身分；授權或仲裁門檻滿足時可驗證特定紀錄【事實錨點：《P02》／§7 FAQ 第 1 題】 | 對照表 |
 | 8 | 跨事業體協作揭露 | 產品歸屬 AllView；AEGIS 提供底層 FHE 核心；Wonderland Center 銜接資源點數調度【事實錨點：《P02》／§1、§3 第 3 段】 | 關係圖（**揭露深度待確認**）【事實錨點：《P02》／§7 賣點句第 6 點】 |
 | 9 | 與寰境再製 OrbiLocale 的區隔 | 本產品是互動、發布、上課、通訊的社群空間；OrbiLocale 是多語內容再製代理【事實錨點：《P02》／§6】 | 雙欄比較 |
-| 10 | 下一步 | 價格、上線時程待公布【事實錨點：《P02》／§9 第 10 點】；CTA：https://wonderland.center/CTA/CipherCircle【事實錨點：主 PMO 2026-11-13 指示／CTA】 | 聯絡頁（導向指定 CTA 網址） |
+| 10 | 下一步 | 價格、上線時程待公布【事實錨點：《P02》／§9 第 10 點】；CTA：https://wonderland.ngo/CTA/CipherCircle【事實錨點：主 PMO 2026-11-13 指示／CTA】 | 聯絡頁（導向指定 CTA 網址） |
 
 ---
 
@@ -156,7 +156,7 @@
 | :--- | :--- | :--- |
 | 《P02》`docs/presale/02-allview-fhe-social-產品說明與預售內容-草稿-v0.2.md`（草稿 v0.2） | `allview-org/CipherCircle` @ `097e1171690ab7fa6a9d69e2b4e18209045cc7cf` | 表頭；§1 跨法人協作；§2 可保留內容、不宜對外表述、缺失資訊；§3 產品概述；§4 A–F；§5；§6；§7 短文案、賣點句、FAQ；§8 資料流；§9 審核重點 |
 | 《R02》`README.md`（草稿 v0.3） | 同上 | 第 2 行品牌與定位句；v0.3 變更註記與人工審核清單 |
-| 主 PMO 2026-11-13 指示／CTA | — | CTA 導向 https://wonderland.center/CTA/CipherCircle |
+| 主 PMO 2026-11-13 指示／CTA | — | CTA 導向 https://wonderland.ngo/CTA/CipherCircle |
 
 ---
 

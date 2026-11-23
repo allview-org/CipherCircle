@@ -10,7 +10,7 @@
 | 任務目標 | [假設] 同時更新 README 與產出預售說詞（使用者僅寫「參考以下內容」，未另行指定範圍） |
 | 核心事實錨點 | 本次未另附獨立錨點。下文事實均摘自使用者提供之既有 README，**尚未升級為已確認錨點** |
 
-v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.ngo）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
@@ -20,7 +20,7 @@ v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜
 - **所屬法人**：README 寫明本軟體隸屬 AllView（`allview.today`），為「文化傳播、宗教與知識論壇的核心數位空間載體」。對應 Corporate 節點為 `C1-AV-CORP`。
 - **跨法人協作（必須分開標註，避免權利義務混淆）**：
   - **AEGIS（`aegis.expert`）**：提供底層共用 FHE 密碼學核心與硬體加速介面（`platform-he-fhe-core`）。AEGIS **不是**本產品線的所屬法人。
-  - **Wonderland Center（`wonderland.center`）**：作為阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）入口；安全漏洞通報信箱寫為 `github-security@wonderland.center`。[待確認] 該信箱作為對外資安窗口是否正確、是否應改為 AllView 網域。
+  - **Wonderland Center（`wonderland.ngo`）**：作為阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）入口；安全漏洞通報信箱寫為 `github-security@wonderland.ngo`。[待確認] 該信箱作為對外資安窗口是否正確、是否應改為 AllView 網域。
 - **既有文件**：`allview-fhe-social-app` README（技術願景、功能矩陣、混合安全架構、目錄、本地開發、QA、PMO 治理）
 - **對應預售專案**：`allview-fhe-social-presale`（`C2-AV-FHS`）
 - **核心事實錨點**：未另提供
@@ -308,7 +308,7 @@ X3DH + Double Ratchet（PFS / PCS）；加密群聊、語音／視訊與螢幕�
 
 `main` 為受保護分支。合併需至少 1 名 Dev Lead 批准、1 名 QA Lead 依 `QA-ACCEPTANCE.md` 簽核，且 CI（含 SAST 與 FHE 回歸）通過。禁止提交客戶私鑰、AES DEK 或未遮罩測試資料。
 
-安全缺陷請通報 `github-security@wonderland.center`（此窗口網域是否維持 [待確認]），請勿公開提交 Issue。
+安全缺陷請通報 `github-security@wonderland.ngo`（此窗口網域是否維持 [待確認]），請勿公開提交 Issue。
 ```
 
 ---
@@ -318,7 +318,7 @@ X3DH + Double Ratchet（PFS / PCS）；加密群聊、語音／視訊與螢幕�
 1. **確認任務範圍**：是否 README 與預售說詞都要。
 2. **對外中文產品名**與 10 條產品線中的編號。
 3. **正式法人名稱**，以及合約主體是否僅為 AllView；AEGIS／Wonderland Center 在對外材料中要揭露到哪一層。
-4. **安全通報信箱**使用 `wonderland.center` 網域是否正確。
+4. **安全通報信箱**使用 `wonderland.ngo` 網域是否正確。
 5. 將下列 README 用語核定為「可對外」或「僅內部／需改寫」：極致體驗、Signal／Telegram／Pixelfed 同級比較、新世代、宗教與知識論壇載體、偽匿名、不可否認。
 6. **量化門檻**（60 FPS、1.2s、800ms 等）能否寫進預售或須僅留在工程 README。
 7. **技術選型定案**：多套 FHE／ZK／前端選項中，哪些已凍結。

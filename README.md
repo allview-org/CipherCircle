@@ -42,7 +42,7 @@ C2-AV-FHS 密圈 CipherCircle FHE 密文防護之偽匿名社群 for 思想領�
   * 對應預售專案：`allview-fhe-social-presale` (`C2-AV-FHS`)
   * 本功能實作專案：`allview-fhe-social-app` (`C3-AV-FHS-F`)
 * **四之二：AEGIS (`aegis.expert`)**：底層共用 FHE 密碼學核心函式庫及硬體加速介面支援（`platform-he-fhe-core`）。
-* **一／四之四：Wonderland Center (`wonderland.center`)**：作為全域阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）之入口。
+* **一／四之四：Wonderland Center (`wonderland.ngo`)**：作為全域阿米巴組織、群眾發包、義工動員與資源點數調度（`platform-resource-points-conversion`）之入口。
 
 ```
 +--------------------------------------------------------------------------+
@@ -260,7 +260,7 @@ cargo test --test crypto_benchmark -- --nocapture
 ---
 
 > **專案聯絡與安全回報**：  
-> 若發現任何密碼學實作缺陷或安全隱患，請立即通知 `github-security@wonderland.center`，請勿公開提交 Issue。
+> 若發現任何密碼學實作缺陷或安全隱患，請立即通知 `github-security@wonderland.ngo`，請勿公開提交 Issue。
 
 
 ## v0.3 變更註記（2026-11-11，Asia/Taipei）
